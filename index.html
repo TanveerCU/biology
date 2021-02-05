@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lockproduction</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/dfd0d55ffc.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- navigation bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.youtube.com/c/EfranMixClass/featured" target="_blank">
+                    <img class="img logo img-circle" src="logo.jpg" alt="logo" width="50px" height="30px">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#myPage">HOME</a></li>
+                    <li><a href="#ssc">SSC</a></li>
+                    <li><a href="#hsc">HSC</a></li>
+                    <li><a href="#other">OTHERS</a></li>
+                    <li><a href="#pricing">PRICING</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- image slider -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="#ssc">
+                    <img src="ssc.jpg" alt="Los Angeles" class="cim" style="height: 70vh;">
+                    <div class="carousel-caption ">
+                        <h3>SECONDARY</h3>
+                        <p>Biology</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="#hsc">
+                    <img src="hsc.jpg" alt="Chicago" class="cim" style="height: 70vh;">
+                    <div class="carousel-caption">
+                        <h3>HIGHER SECONDARY</h3>
+                        <p>Biology</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="item">
+                <a href="#other">
+                    <img src="other.jpg" alt="New York" class="cim" style="height: 70vh;">
+                    <div class="carousel-caption">
+                        <h3>OTHERS</h3>
+                        <p>Biology</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+
+
+
+    <!-- SSC block -->
+    <div class="container-fluid" id="ssc">
+        <h1 class="text-center">SECONDARY</h1>
+        <div class="row">
+            <div class="col-sm-7 ssc-box1">
+                <h5 class="text-center ssc-text-holder">S.S.C. Biology Chapter 14 part-1</h5>
+                <iframe id="ssc-frame" width="100%" height="87%" src="https://www.youtube.com/embed/DksbGGurLnE"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-5 ssc-box2">
+                <div class="playlist">
+                    <button type="button" class="s btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/DksbGGurLnE">Chapter 14 part-1</button>
+                    <button type="button" class="s btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/5kqBf3KZa58">Chapter 14 part-2</button>
+                    <button type="button" class="s btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/SrOBPbHA_As">Chapter 5 part-1 </button>
+                    <button type="button" class="s btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/emzbzGUCF2Q">Chapter 5 part-2</button>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+
+
+    <!-- HSC block -->
+    <div class="container-fluid" id="hsc">
+        <h1 class="text-center">HIGHER SECONDARY</h1>
+        <div class="row">
+            <div class="col-sm-7 ssc-box1">
+                <h5 class="text-center hsc-text-holder">H.S.C. Biology 2nd paper chapter 5 part-1</h5>
+                <iframe id="hsc-frame" width="100%" height="87%" src="https://www.youtube.com/embed/tkuZw1-tWjg"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="col-sm-5 hsc-box2">
+                <div class="playlist">
+                    <button type="button" class="h btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/tkuZw1-tWjg">2nd paper chapter 5 part-1</button>
+                    <button type="button" class="h btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/tkuZw1-tWjg">2nd paper chapter 5 part-2</button>
+                    <button type="button" class="h btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/DP4ToKBMWJo">2nd paper chapter 5 part-3</button>
+                    <button type="button" class="h btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/tuW8s-Eh1ZQ">2nd paper chapter 4 part-1</button>
+                    <button type="button" class="h btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/gD54Kg_MXDI">2nd paper chapter 4 part-2</button>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+
+    <!-- Others -->
+    <div class="container-fluid" id="other">
+        <h1 class="text-center">OTHER</h1>
+        <div class="row">
+            <div class="col-sm-7 ssc-box1">
+                <h5 class="text-center other-text-holder">COVID-19।। What is CORONA VIRUS​ ? How to fight with it?</h5>
+                <iframe id="other-frame" width="100%" height="87%" src="https://www.youtube.com/embed/enhhrvB_mtY"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen> somethig wrong</iframe>
+            </div>
+            <div class="col-sm-5 ssc-box2">
+                <div class="playlist playlist-other">
+                    <button type="button" class="o btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/enhhrvB_mtY">COVID-19 How to
+                        fight with it?</button>
+                    <button type="button" class="o btn btn-primary btn-lg btn-block"
+                        value="https://www.youtube.com/embed/KvFl4QdoXbI">why this channel</button>
+                </div>
+            </div>
+        </div>
+        <br>
+    </div>
+
+
+
+
+    <!-- pricing -->
+    <div class="container-fluid" id="pricing" style="padding: 25px; margin: 0;">
+        <h1 class="text-center">PRICING</h1>
+        <div class="container-fluid prc">
+            <div class="col-card span_1_of_4">
+                <div class="card">
+                <h1>HSC</h1>
+                <p class="price">&#2547 ১২০০ / month</p>
+                <p style="font-weight: bolder">Regular</p>
+                <p><button>Get this Course</button></p>
+            </div>
+            </div>
+            <div class="col-card span_1_of_4">
+                <div class="card">
+                <h1>SSC</h1>
+                <p class="price">&#2547 ১০০০ / month</p>
+                <p style="font-weight: bolder">Regular</p>
+                <p><button>Get this Course</button></p>
+            </div>
+            </div>
+            <div class="col-card span_1_of_4">
+                <div class="card">
+                <h1>HSC</h1>
+                <p class="price">&#2547 ১৮০০০</p>
+                <p style="font-weight: bolder">crash(Duration: 3 months)</p>
+                <p><button>Get this Course</button></p>
+            </div>
+            </div>
+            <div class="col-card span_1_of_4">
+                <div class="card">
+                <h1>SSC</h1>
+                <p class="price">&#2547 ১২০০০</p>
+                <p style="font-weight: bolder">crash(Duration: 3 months)</p>
+                <p><button>Get this Course</button></p>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container-fluid">
+        <h1 class="text-center">Contact</h1>
+        <p class="text-center" style="color: black;"><em>We love to hear from you</em></p>
+        <form action="https://formspree.io/f/meqpdlad" method="POST" id="my-form">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Address</p>
+                    <p><span class="glyphicon glyphicon-map-marker"></span> Basabo,khilgaon,Dhaka</p>
+                    <p><span class="glyphicon glyphicon-phone"></span> Phone: 01911567866</p>
+                    <p><span class="glyphicon glyphicon-envelope"></span> Email: thelockproduction@gmail.com</p>
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email"
+                                required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"
+                        required></textarea>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button class="btn pull-right send-btn" type="submit" id="my-form-button">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <p id="my-form-status" class="text-center"></p>
+        <br>
+
+    </div>
+
+
+
+    <!-- Footer -->
+
+    <footer class="text-center">
+        <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a><br><br>
+        <div class="social">
+            <a href="https://www.facebook.com/efran.zahid" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#home"><i class="fab fa-twitter-square fa-2x"></i></a>
+            <a href="https://www.youtube.com/c/EfranMixClass/featured" target="_blank"><i
+                    class="fab fa-youtube fa-2x"></i></a>
+        </div>
+
+    </footer>
+
+
+    <script>
+        $(document).ready(function () {
+            let w = $(document).width();
+            console.log(w);
+            if (w <= 768) {
+                console.log("invoked")
+                $('.cim').attr('style', 'height: 40vh');
+
+            }
+
+
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+
+            $('button').on('click', function () {
+                let cls = $(this).attr('class');
+                if (cls[0] === 's') {
+                    let value = $(this).val();
+                    let text = $(this).text();
+                    console.log(text);
+                    $('.ssc-text-holder').text('S.S.C. Biology ' + text);
+                    $('#ssc-frame').attr('src', value);
+
+                } else if (cls[0] === 'h') {
+                    let value = $(this).val();
+                    let text = $(this).text();
+                    console.log(text);
+                    $('.hsc-text-holder').text('H.S.C. Biology ' + text);
+                    $('#hsc-frame').attr('src', value);
+                } else {
+                    let value = $(this).val();
+                    let text = $(this).text();
+                    console.log(text);
+                    $('.other-text-holder').text(text);
+                    $('#other-frame').attr('src', value);
+                }
+            })
+
+            $('[data-toggle="tooltip"]').tooltip();
+
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        })
+    </script>
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+
+            // get the form elements defined in your form HTML above
+
+            var form = document.getElementById("my-form");
+            var button = document.getElementById("my-form-button");
+            var status = document.getElementById("my-form-status");
+
+            // Success and Error functions for after the form is submitted
+
+            function success() {
+                form.reset();
+                // button.style = "display: none ";
+                $('#my-form-status').css('color', '#2ECC71');
+                status.innerHTML = "Thanks!";
+                $('#my-form-status').fadeIn(2000).fadeOut(1500);
+
+            }
+
+            function error() {
+                status.innerHTML = "Oops! There was a problem.";
+                $('#my-form-status').css('color', '#F03015');
+                $('#my-form-status').fadeIn(2000).fadeOut(1500);
+            }
+
+            // handle the form submission event
+
+            form.addEventListener("submit", function (ev) {
+                ev.preventDefault();
+                var data = new FormData(form);
+                ajax(form.method, form.action, data, success, error);
+            });
+        });
+
+        // helper function for sending an AJAX request
+
+        function ajax(method, url, data, success, error) {
+            var xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+            xhr.setRequestHeader("Accept", "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                if (xhr.status === 200) {
+                    success(xhr.response, xhr.responseType);
+                } else {
+                    error(xhr.status, xhr.response, xhr.responseType);
+                }
+            };
+            xhr.send(data);
+        }
+    </script>
+
+</body>
+
+</html>
